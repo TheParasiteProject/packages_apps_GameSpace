@@ -71,4 +71,6 @@
 
     <string name="adb_disabled_title">Disable USB debugging</string>
     <string name="adb_disabled_summary">Temporary disable USB ADB debugging while in-game</string>
+
+    <string name="battery_format">Battery: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
 </resources>
