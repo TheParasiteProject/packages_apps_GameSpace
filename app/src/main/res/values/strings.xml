@@ -7,7 +7,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="settings_title">Game Space</string>
+    <string name="settings_title" translatable="false">Game Space</string>
     <string name="settings_summary">Manage your gaming setup</string>
 
     <!-- Game options -->
