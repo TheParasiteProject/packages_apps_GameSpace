@@ -48,7 +48,7 @@
                     android:fontFamily="sans-serif-light"
                     android:gravity="start|center_vertical"
                     android:text="@string/settings_title"
-                    android:textSize="26sp" />
+                    android:textSize="24sp" />
 
                 <TextClock
                     android:id="@+id/time_view"
@@ -61,7 +61,7 @@
                     android:gravity="end|center_vertical"
                     android:format12Hour="h:mm"
                     android:format24Hour="kk:mm"
-                    android:textSize="26sp" />
+                    android:textSize="24sp" />
             </RelativeLayout>
 
             <RelativeLayout
