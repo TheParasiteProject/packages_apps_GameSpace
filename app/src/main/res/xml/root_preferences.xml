@@ -59,25 +59,30 @@
         <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_stay_awake"
+            android:summary="@string/stay_awake_summary"
             android:title="@string/stay_awake_title" />
 
         <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_lock_gesture"
+            android:summary="@string/lock_gesture_summary"
             android:title="@string/lock_gesture_title" />
 
         <SwitchPreference
             android:key="gamespace_auto_brightness_disabled"
+            android:summary="@string/auto_brightness_disabled_summary"
             android:title="@string/auto_brightness_disabled_title" />
 
         <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_tfgesture_disabled"
+            android:summary="@string/three_screenshot_disabled_summary"
             android:title="@string/three_screenshot_disabled_title" />
 
         <SwitchPreference
             android:defaultValue="false"
             android:key="gamespace_adb_disabled"
+            android:summary="@string/adb_disabled_summary"
             android:title="@string/adb_disabled_title" />
 
         <com.crdroid.settings.preferences.CustomSeekBarPreference
