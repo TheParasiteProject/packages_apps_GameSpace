@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="4dp"
                     android:layout_alignParentStart="true" 
-                    android:fontFamily="@*android:string/config_lightFontFamily"
+                    android:fontFamily="sans-serif-light"
                     android:gravity="start|center_vertical"
                     android:text="@string/settings_title"
                     android:textSize="26sp" />
@@ -57,7 +57,7 @@
                     android:layout_marginHorizontal="4dp"
                     android:layout_alignParentEnd="true" 
                     android:layout_toEndOf="@id/title_view"
-                    android:fontFamily="@*android:string/config_lightFontFamily"
+                    android:fontFamily="sans-serif-light"
                     android:gravity="end|center_vertical"
                     android:format12Hour="h:mm"
                     android:format24Hour="kk:mm"
