@@ -26,6 +26,7 @@ android_app {
         "kotlinx-coroutines-android",
         "gson-prebuilt-jar",
         "hilt_android",
+        "custom-preference",
     ],
     kotlincflags: [
         "-opt-in=kotlin.Experimental",
