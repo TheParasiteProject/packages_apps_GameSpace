@@ -26,8 +26,6 @@ android_app {
         "kotlinx-coroutines-android",
         "gson-prebuilt-jar",
         "hilt_android",
-        "org.lineageos.platform.internal",
-        "LineagePreferenceLib",
     ],
     kotlincflags: [
         "-opt-in=kotlin.Experimental",
