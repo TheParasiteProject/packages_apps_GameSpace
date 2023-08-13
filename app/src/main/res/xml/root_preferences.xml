@@ -79,12 +79,6 @@
             android:summary="@string/three_screenshot_disabled_summary"
             android:title="@string/three_screenshot_disabled_title" />
 
-        <SwitchPreference
-            android:defaultValue="false"
-            android:key="gamespace_adb_disabled"
-            android:summary="@string/adb_disabled_summary"
-            android:title="@string/adb_disabled_title" />
-
         <com.android.settings.custom.preference.CustomSeekBarPreference
             android:key="gamespace_menu_opacity"
             android:title="@string/gamespace_menu_opacity_title"
