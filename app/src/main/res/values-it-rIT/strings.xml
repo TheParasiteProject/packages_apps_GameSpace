@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Disabilita debug USB</string>
     <string name="gamespace_menu_opacity_title">Livello di opacità menù sovrapposizione</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Modalità notifica</string>
-    <string name="notification_mode_hide">Non visualizzare</string>
-    <string name="notification_mode_headsup">Mostra come notifiche a comparsa</string>
-    <string name="notification_mode_reticker">Mostra come reTicker</string>
-    <string name="notification_mode_danmaku">Mostra come Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Modalità suoneria</string>
     <string name="ringer_mode_silent">Silenzioso</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Modalità</string>
     <string name="fps_Info_title">Info FPS</string>
-    <string name="notification_hide">Nascondi</string>
-    <string name="notification_headsup">Notifiche a comparsa</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Abilitato</string>
     <string name="state_disabled">Disabilitato</string>

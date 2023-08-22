@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Desativar depuração USB</string>
     <string name="gamespace_menu_opacity_title">Nível de opacidade do menu de opções</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Estilo das notificações</string>
-    <string name="notification_mode_hide">Não exibir</string>
-    <string name="notification_mode_headsup">Mostrar como notificação flutuante</string>
-    <string name="notification_mode_reticker">Mostrar como reTicker</string>
-    <string name="notification_mode_danmaku">Mostrar como Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Modo de toque</string>
     <string name="ringer_mode_silent">Silencioso</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Modo</string>
     <string name="fps_Info_title">Informações de FPS</string>
-    <string name="notification_hide">Ocultar</string>
-    <string name="notification_headsup">Notificações flutuantes</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Ativado</string>
     <string name="state_disabled">Desativado</string>

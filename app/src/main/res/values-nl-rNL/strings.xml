@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Usb-foutopsporing uitschakelen</string>
     <string name="gamespace_menu_opacity_title">Transparantieniveau van overlappingsmenu</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Notificatie modus</string>
-    <string name="notification_mode_hide">Niet tonen</string>
-    <string name="notification_mode_headsup">Heads-up tonen</string>
-    <string name="notification_mode_reticker">Toon als reTicker</string>
-    <string name="notification_mode_danmaku">Weergeven als Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Beltoonmodus</string>
     <string name="ringer_mode_silent">Stil</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Modus</string>
     <string name="fps_Info_title">FPS info</string>
-    <string name="notification_hide">Verbergen</string>
-    <string name="notification_headsup">Pop-up</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Denemarken</string>
     <string name="state_enabled">Ingeschakeld</string>
     <string name="state_disabled">Uitgechakeld</string>

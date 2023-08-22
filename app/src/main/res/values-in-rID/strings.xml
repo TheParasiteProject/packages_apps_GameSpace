@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Nonaktifkan USB debugging</string>
     <string name="gamespace_menu_opacity_title">Tingkat opasitas hamparan menu</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Mode notifikasi</string>
-    <string name="notification_mode_hide">Jangan tampilkan</string>
-    <string name="notification_mode_headsup">Muncul sebagai Notifikasi Mengambang</string>
-    <string name="notification_mode_reticker">Muncul sebagai reTicker</string>
-    <string name="notification_mode_danmaku">Muncul sebagai Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Mode dering</string>
     <string name="ringer_mode_silent">Senyap</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Mode</string>
     <string name="fps_Info_title">Info FPS</string>
-    <string name="notification_hide">Sembunyikan</string>
-    <string name="notification_headsup">Notifikasi mengambang</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Diaktifkan</string>
     <string name="state_disabled">Dinonaktifkan</string>

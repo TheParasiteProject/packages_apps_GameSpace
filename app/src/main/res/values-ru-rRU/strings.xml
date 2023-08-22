@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Отключить отладку по USB</string>
     <string name="gamespace_menu_opacity_title">Уровень прозрачности меню игрового режима</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Режим уведомлений</string>
-    <string name="notification_mode_hide">Не показывать</string>
-    <string name="notification_mode_headsup">Показывать в виде всплывающих уведомлений</string>
-    <string name="notification_mode_reticker">Новый стиль уведомлений</string>
-    <string name="notification_mode_danmaku">Прозрачные без фона</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Режим звонка в игре</string>
     <string name="ringer_mode_silent">Беззвучный</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Режим</string>
     <string name="fps_Info_title">Информация о FPS</string>
-    <string name="notification_hide">Скрыть</string>
-    <string name="notification_headsup">Всплывающее уведомление</string>
-    <string name="notification_reticker">Новый стиль уведомлений</string>
     <string name="notification_danmaku">Прозрачные без фона</string>
     <string name="state_enabled">Включено</string>
     <string name="state_disabled">Отключено</string>

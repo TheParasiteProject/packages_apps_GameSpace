@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">USB 디버깅 비활성화</string>
     <string name="gamespace_menu_opacity_title">오버레이 메뉴 투명도 레벨</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">알림 모드</string>
-    <string name="notification_mode_hide">표시 안 함</string>
-    <string name="notification_mode_headsup">헤드업으로 보기</string>
-    <string name="notification_mode_reticker">reTicker로 보기</string>
-    <string name="notification_mode_danmaku">Danmaku로 보기</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">벨소리 모드</string>
     <string name="ringer_mode_silent">무음</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">모드</string>
     <string name="fps_Info_title">FPS 정보</string>
-    <string name="notification_hide">숨기기</string>
-    <string name="notification_headsup">헤드업</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">활성화됨</string>
     <string name="state_disabled">사용 안 함</string>

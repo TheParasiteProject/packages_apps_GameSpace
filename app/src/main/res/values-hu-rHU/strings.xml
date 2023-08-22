@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Az USB-hibakeresés tiltása</string>
     <string name="gamespace_menu_opacity_title">Átfedés menü átlátszósági szintje</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Értesítési mód</string>
-    <string name="notification_mode_hide">Ne jelenjen meg</string>
-    <string name="notification_mode_headsup">Felugró értesítés</string>
-    <string name="notification_mode_reticker">Megjelenítés mint reTicker</string>
-    <string name="notification_mode_danmaku">Mutasd mint Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Csengés mód</string>
     <string name="ringer_mode_silent">Néma</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Mód</string>
     <string name="fps_Info_title">FPS-adatok</string>
-    <string name="notification_hide">Elrejt</string>
-    <string name="notification_headsup">Lebegő értesítés</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Engedélyezve</string>
     <string name="state_disabled">Letiltva</string>

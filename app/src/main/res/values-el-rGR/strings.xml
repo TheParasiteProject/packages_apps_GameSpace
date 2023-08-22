@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Απενεργοποίηση εντοπισμού σφαλμάτων USB</string>
     <string name="gamespace_menu_opacity_title">Επίπεδο αδιαφάνειας μενού επικάλυψης</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Ειδοποιήσεις</string>
-    <string name="notification_mode_hide">Να μην εμφανίζεται</string>
-    <string name="notification_mode_headsup">Εμφάνιση ως Αναδυόμενες ειδοποιήσεις</string>
-    <string name="notification_mode_reticker">Εμφάνιση ως reTicker</string>
-    <string name="notification_mode_danmaku">Εμφάνιση ως Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Λειτουργία κουδουνίσματος</string>
     <string name="ringer_mode_silent">Αθόρυβο</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Λειτουργία</string>
     <string name="fps_Info_title">Πληροφορίες FPS</string>
-    <string name="notification_hide">Απόκρυψη</string>
-    <string name="notification_headsup">Αναδυόμενες ειδοποιήσεις</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Ενεργοποιημένο</string>
     <string name="state_disabled">Απενεργοποιημένο</string>

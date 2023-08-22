@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">تعطيل تصحيح أخطاء USB</string>
     <string name="gamespace_menu_opacity_title">مستوى شفافية القائمة العائمة</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">وضع الإشعارات</string>
-    <string name="notification_mode_hide">اخفاء</string>
-    <string name="notification_mode_headsup">إظهار كتنبيهات</string>
-    <string name="notification_mode_reticker">إظهار كمؤشر</string>
-    <string name="notification_mode_danmaku">إظهار ك Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">وضع الرنين</string>
     <string name="ringer_mode_silent">صامت</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">الوضع</string>
     <string name="fps_Info_title">عداد معدل الإطارات</string>
-    <string name="notification_hide">إخفاء</string>
-    <string name="notification_headsup">التنبيهات العلوية</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">مفعّل</string>
     <string name="state_disabled">معطل</string>

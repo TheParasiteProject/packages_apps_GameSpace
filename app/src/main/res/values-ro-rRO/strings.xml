@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Dezactivează depanarea USB</string>
     <string name="gamespace_menu_opacity_title">Opacitate pentru meniul suprapus</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Modul notificare</string>
-    <string name="notification_mode_hide">Nu se afișează</string>
-    <string name="notification_mode_headsup">Arată ca HeadsUp</string>
-    <string name="notification_mode_reticker">Arată ca reTicker</string>
-    <string name="notification_mode_danmaku">Arată ca Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Mod sonerie</string>
     <string name="ringer_mode_silent">Silențios</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Mod</string>
     <string name="fps_Info_title">Informații FPS</string>
-    <string name="notification_hide">Ascunde</string>
-    <string name="notification_headsup">Atenționări</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Activat</string>
     <string name="state_disabled">Dezactivat</string>

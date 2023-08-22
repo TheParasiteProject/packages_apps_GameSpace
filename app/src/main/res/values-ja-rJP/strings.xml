@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">USB デバッグを無効化</string>
     <string name="gamespace_menu_opacity_title">オーバーレイメニューの不透明度</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">通知モード</string>
-    <string name="notification_mode_hide">表示しない</string>
-    <string name="notification_mode_headsup">ポップアップ表示する</string>
-    <string name="notification_mode_reticker">reTicker として表示</string>
-    <string name="notification_mode_danmaku">Danmaku として表示</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">着信音モード</string>
     <string name="ringer_mode_silent">サイレント</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">モード</string>
     <string name="fps_Info_title">FPS 情報</string>
-    <string name="notification_hide">非表示にする</string>
-    <string name="notification_headsup">ポップアップ通知</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">有効</string>
     <string name="state_disabled">無効</string>

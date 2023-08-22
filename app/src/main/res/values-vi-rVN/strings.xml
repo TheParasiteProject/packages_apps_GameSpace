@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Tắt gỡ lỗi USB</string>
     <string name="gamespace_menu_opacity_title">Độ mờ của menu</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Kiểu thông báo</string>
-    <string name="notification_mode_hide">Không hiển thị</string>
-    <string name="notification_mode_headsup">Hiện thông báo nổi</string>
-    <string name="notification_mode_reticker">Hiện kiểu reTicker</string>
-    <string name="notification_mode_danmaku">Hiện kiểu Danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Chế độ chuông</string>
     <string name="ringer_mode_silent">Im lặng</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Chế độ</string>
     <string name="fps_Info_title">Thông tin FPS</string>
-    <string name="notification_hide">Ẩn</string>
-    <string name="notification_headsup">Thông báo nổi</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Bật</string>
     <string name="state_disabled">Tắt</string>

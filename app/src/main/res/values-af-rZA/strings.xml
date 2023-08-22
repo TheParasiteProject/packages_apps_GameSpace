@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Deaktiveer \"USB debugging\"</string>
     <string name="gamespace_menu_opacity_title">Oorleg kieslys ondeursigtigheid vlak</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Kennisgewingmodus</string>
-    <string name="notification_mode_hide">Moet nie wys</string>
-    <string name="notification_mode_headsup">Wys as \"Heads Up\"</string>
-    <string name="notification_mode_reticker">Wys as \"reTicker\"</string>
-    <string name="notification_mode_danmaku">Wys as \"Danmaku\"</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Belmodus</string>
     <string name="ringer_mode_silent">Stil</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Modus</string>
     <string name="fps_Info_title">FPS informasie</string>
-    <string name="notification_hide">Steek weg</string>
-    <string name="notification_headsup">\"Heads Up\"</string>
-    <string name="notification_reticker">\"reTicker\"</string>
     <string name="notification_danmaku">\"Danmaku\"</string>
     <string name="state_enabled">Geaktiveer</string>
     <string name="state_disabled">Gedeaktiveer</string>

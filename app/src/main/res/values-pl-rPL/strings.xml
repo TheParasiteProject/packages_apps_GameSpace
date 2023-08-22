@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">Wyłącz debugowanie USB</string>
     <string name="gamespace_menu_opacity_title">Poziom przezroczystości nakładki menu</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Opcje powiadomień</string>
-    <string name="notification_mode_hide">Nie pokazuj</string>
-    <string name="notification_mode_headsup">Wyświetl jako Heads-up</string>
-    <string name="notification_mode_reticker">Pokaż jako reTicker</string>
-    <string name="notification_mode_danmaku">Pokaż jako pasek danmaku</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Tryb dzwonka</string>
     <string name="ringer_mode_silent">Tryb cichy</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Tryb</string>
     <string name="fps_Info_title">Wskaźnik FPS</string>
-    <string name="notification_hide">Ukryj</string>
-    <string name="notification_headsup">Powiadomienia \"Heads up\"</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Włączono</string>
     <string name="state_disabled">Wyłączono</string>

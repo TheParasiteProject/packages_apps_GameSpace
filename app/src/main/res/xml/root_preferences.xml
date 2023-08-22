@@ -37,19 +37,17 @@
 
         <ListPreference
             android:defaultValue="3"
-            android:entries="@array/notification_mode_entries"
-            android:entryValues="@array/notification_mode_values"
-            android:key="gamespace_notification_mode"
-            android:summary="%s"
-            android:title="@string/notification_mode_title" />
-
-        <ListPreference
-            android:defaultValue="3"
             android:entries="@array/ringer_mode_entries"
             android:entryValues="@array/ringer_mode_values"
             android:key="gamespace_ringer_mode"
             android:summary="%s"
             android:title="@string/ringer_mode_title" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="gamespace_danmaku_notification_mode"
+            android:summary="@string/danmaku_notification_mode_summary"
+            android:title="@string/danmaku_notification_mode_title" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="gamespace_suppress_fullscreen_intent"

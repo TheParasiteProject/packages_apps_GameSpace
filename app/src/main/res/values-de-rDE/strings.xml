@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">USB-Debugging deaktivieren</string>
     <string name="gamespace_menu_opacity_title">Transparenz des Overlay-Menüs</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Benachrichtigungsmodus</string>
-    <string name="notification_mode_hide">Nicht anzeigen</string>
-    <string name="notification_mode_headsup">Als Pop-up anzeigen</string>
-    <string name="notification_mode_reticker">Als reTicker anzeigen</string>
-    <string name="notification_mode_danmaku">Als Danmaku anzeigen</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Klingelmodus</string>
     <string name="ringer_mode_silent">Stumm</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Modus</string>
     <string name="fps_Info_title">FPS-Info</string>
-    <string name="notification_hide">Ausblenden</string>
-    <string name="notification_headsup">Pop-up</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Aktiviert</string>
     <string name="state_disabled">Deaktiviert</string>

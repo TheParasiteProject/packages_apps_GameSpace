@@ -29,11 +29,6 @@
     <string name="adb_disabled_title">USB hata ayıklamasını devre dışı bırak</string>
     <string name="gamespace_menu_opacity_title">Arayüz menüsü şeffaflığı</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Bildirim modu</string>
-    <string name="notification_mode_hide">Gösterme</string>
-    <string name="notification_mode_headsup">Bildirim penceresi olarak göster</string>
-    <string name="notification_mode_reticker">ReTicker olarak göster</string>
-    <string name="notification_mode_danmaku">Danmaku olarak göster</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Zil sesi modu</string>
     <string name="ringer_mode_silent">Sessiz</string>
@@ -68,9 +63,6 @@
     <!-- Tiles -->
     <string name="game_mode_title">Mod</string>
     <string name="fps_Info_title">FPS bilgisi</string>
-    <string name="notification_hide">Gizle</string>
-    <string name="notification_headsup">Bildirim pencereleri</string>
-    <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Etkin</string>
     <string name="state_disabled">Devre dışı</string>
