@@ -1,0 +1,51 @@
+android_app {
+    name: "GameSpace",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+    manifest: "AndroidManifest.xml",
+    certificate: "platform",
+    resource_dirs: ["res"],
+    defaults: [
+        "SettingsLibDefaults",
+    ],
+    srcs: [
+        "java/**/*.java",
+        "java/**/*.kt",
+        "java/**/*.aidl",
+    ],
+    aidl: {
+        local_include_dirs: ["java"],
+    },
+    static_libs: [
+        "androidx.core_core-ktx",
+        "androidx.appcompat_appcompat",
+        "androidx.preference_preference",
+        "com.google.android.material_material",
+        "kotlin-stdlib",
+        "kotlinx-coroutines-android",
+        "gson",
+        "hilt_android",
+        "custom-preference",
+    ],
+    kotlincflags: [
+        "-opt-in=kotlin.Experimental",
+        "-opt-in=kotlin.ExperimentalStdlibApi",
+    ],
+    plugins: [
+        "dagger2-compiler",
+    ],
+
+    required: [
+        "ANGLE",
+        "privapp_whitelist_com.android.settings.game.xml"
+    ],
+}
+
+prebuilt_etc_xml {
+    name: "privapp_whitelist_com.android.settings.game.xml",
+    src: "privapp_whitelist_com.android.settings.game.xml",
+    system_ext_specific: true,
+    filename_from_src: true,
+    sub_dir: "permissions",
+}

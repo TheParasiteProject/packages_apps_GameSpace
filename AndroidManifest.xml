@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    Copyright (C) Chaldeaprjkt
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.settings.game"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_DEVICE_CONFIG" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.systemui.permission.SCREEN_RECORDING" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FPS_COUNTER" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <!-- Required to write Settings.Secure -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- Required for Telephony callbacks -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".GameSettings"
+        android:label="@string/settings_title"
+        android:supportsRtl="true"
+        android:theme="@style/GameSettingsTheme">
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:excludeFromRecents="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".settings.PerAppSettingsActivity"
+            android:excludeFromRecents="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".preferences.appselector.AppSelectorActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:label="@string/app_selector_label" />
+
+    </application>
+
+</manifest>
