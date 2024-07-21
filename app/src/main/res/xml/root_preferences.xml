@@ -102,4 +102,25 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="advanced_settings"
+        android:title="@string/advanced_settings_title">
+    
+        <Preference
+            android:key="game_dashboard_settings"
+            android:title="@string/game_dashboard_title"
+            android:summary="@string/game_dashboard_summary"
+            android:persistent="false">
+            <intent
+                android:targetPackage="com.google.android.gms"
+                android:targetClass="com.google.android.gms.gp.gameservice.SettingsActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="settings_footer"
+        android:title="@string/settings_footer"
+        android:selectable="false" />
+
 </PreferenceScreen>

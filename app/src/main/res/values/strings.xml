@@ -26,6 +26,16 @@
     <string name="adb_disabled_summary">Temporary disable USB ADB debugging</string>
     <string name="gamespace_menu_opacity_title">Overlay menu opacity level</string>
 
+    <!-- Advanced settings -->
+    <string name="advanced_settings_title">Advenced settings</string>
+
+    <!-- Game Dashboard -->
+    <string name="game_dashboard_title">Game Dashboard</string>
+    <string name="game_dashboard_summary">Manage Google Game Dashboard settings</string>
+
+    <!-- Footer -->
+    <string name="settings_footer">Google Game Dashboard is available for games downloaded from Play Store regardless of their listing in Game library</string>
+
     <!-- Notification Mode -->
     <string name="notification_mode_title">Notification mode</string>
     <string name="notification_mode_hide">Do not show</string>
