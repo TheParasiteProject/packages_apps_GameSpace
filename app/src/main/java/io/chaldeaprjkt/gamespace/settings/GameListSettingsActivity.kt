@@ -17,24 +17,19 @@
 package io.chaldeaprjkt.gamespace.settings
 
 import android.os.Bundle
-import android.view.View
-import androidx.preference.Preference
-import androidx.preference.PreferenceFragmentCompat
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 import dagger.hilt.android.AndroidEntryPoint
-import io.chaldeaprjkt.gamespace.R
 
-@AndroidEntryPoint(PreferenceFragmentCompat::class)
-class SettingsFragment : Hilt_SettingsFragment() {
+@AndroidEntryPoint(CollapsingToolbarBaseActivity::class)
+class GameListSettingsActivity : Hilt_GameListSettingsActivity() {
 
-    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
-        setPreferencesFromResource(R.xml.root_preferences, rootKey)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-    }
-
-    override fun onResume() {
-        super.onResume()
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        if (savedInstanceState == null) {
+            supportFragmentManager
+                .beginTransaction()
+                .replace(com.android.settingslib.R.id.content_frame, GameListSettingsFragment())
+                .commit()
+        }
     }
 }

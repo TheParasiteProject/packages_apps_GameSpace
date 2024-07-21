@@ -59,6 +59,12 @@
         </activity>
 
         <activity
+            android:name=".settings.GameListSettingsActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/game_list_title" />
+
+        <activity
             android:name=".settings.PerAppSettingsActivity"
             android:excludeFromRecents="true"
             android:exported="false" />

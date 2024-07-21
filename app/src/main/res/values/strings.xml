@@ -41,8 +41,12 @@
     <string name="ringer_mode_no_change">Do not change</string>
 
     <!-- Game picker -->
-    <string name="game_list_title">Library</string>
-    <string name="game_list_add_title">Add</string>
+    <string name="game_list_preferences_title">Library opt-in options</string>
+    <string name="desc_game_library">Add or remove apps that considered as game you want to setup.</string>
+    <string name="game_list_title">Game library</string>
+    <string name="game_list_summary">Manage game library to configure per-game experience</string>
+    <string name="game_list_library_title">Library</string>
+    <string name="game_list_add_title">Add game</string>
     <string name="app_selector_label">Pick your game</string>
     <string name="app_search_title">Search</string>
     <string name="game_remove_message">Are you sure you want to remove %1$s from your game list?</string>

@@ -24,6 +24,21 @@
         app:lottie_rawRes="@raw/game_settings_illustration" />
 
     <PreferenceCategory
+        android:key="game_list_preferences"
+        android:title="@string/game_list_preferences_title">
+
+        <Preference
+            android:title="@string/game_list_title"
+            android:summary="@string/game_list_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="io.chaldeaprjkt.gamespace.settings.GameListSettingsActivity"
+                android:targetPackage="io.chaldeaprjkt.gamespace" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="in_game_preferences"
         android:title="@string/in_game_preferences_title">
 
@@ -86,9 +101,5 @@
             app:units="%" />
 
     </PreferenceCategory>
-
-    <io.chaldeaprjkt.gamespace.preferences.AppListPreferences
-        android:key="gamespace_game_list"
-        android:title="@string/game_list_title" />
 
 </PreferenceScreen>
