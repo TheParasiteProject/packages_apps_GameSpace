@@ -7,7 +7,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="settings_title" translatable="false">Game Mode</string>
+    <string name="app_name" translatable="false">Game Mode</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Game mode</string>
     <string name="settings_summary">Enhance your gaming experience</string>
 
     <!-- Game options -->
