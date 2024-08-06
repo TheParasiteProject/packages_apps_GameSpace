@@ -32,6 +32,10 @@
     <!-- Advanced settings -->
     <string name="advanced_settings_title">Advenced settings</string>
 
+    <!-- Device Preset -->
+    <string name="device_preset_title">Device Preset</string>
+    <string name="device_preset_summary">Apply appropriate optimized device presets for specific games to unlock fps limit, options, and more</string>
+
     <!-- Game Dashboard -->
     <string name="game_dashboard_title">Game Dashboard</string>
     <string name="game_dashboard_summary">Manage Google Game Dashboard settings</string>

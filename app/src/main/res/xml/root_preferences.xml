@@ -105,7 +105,7 @@
     <PreferenceCategory
         android:key="advanced_settings"
         android:title="@string/advanced_settings_title">
-    
+
         <Preference
             android:key="game_dashboard_settings"
             android:title="@string/game_dashboard_title"
@@ -115,6 +115,12 @@
                 android:targetPackage="com.google.android.gms"
                 android:targetClass="com.google.android.gms.gp.gameservice.SettingsActivity" />
         </Preference>
+
+        <com.android.settings.custom.preference.SystemPropertySwitchPreference
+            android:key="persist.sys.gamehooks.enable"
+            android:title="@string/device_preset_title"
+            android:summary="@string/device_preset_summary"
+            android:defaultValue="false"/>
 
     </PreferenceCategory>
 
