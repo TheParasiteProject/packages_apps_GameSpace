@@ -13,6 +13,10 @@
     <string name="settings_title">Game mode</string>
     <string name="settings_summary">Enhance your gaming experience</string>
 
+    <!-- Quick start apps -->
+    <string name="quick_start_apps_title">Quick Start Apps</string>
+    <string name="quick_start_apps_summary">Select apps to launch quickly</string>
+
     <!-- Game options -->
     <string name="in_game_preferences_title">In-game options</string>
     <string name="suppress_fullscreen_intent_title">Block fullscreen event</string>
