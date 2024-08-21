@@ -69,7 +69,7 @@ class GameSession @Inject constructor(
             systemSettings.headsup = false
         }
         if (appSettings.noThreeScreenshot) {
-            systemSettings.threeScreenshot = false
+            systemSettings.threeScreenshot = 0
         }
         if (appSettings.ringerMode != 3) {
             audioManager.ringerModeInternal = appSettings.ringerMode
@@ -85,7 +85,7 @@ class GameSession @Inject constructor(
             orig.headsup?.let { systemSettings.headsup = it }
         }
         if (appSettings.noThreeScreenshot) {
-            orig.threeScreenshot?.let { systemSettings.threeScreenshot = it }
+            systemSettings.threeScreenshot = orig.threeScreenshot
         }
         if (appSettings.ringerMode != 3) {
             audioManager.ringerModeInternal = orig.ringerMode
