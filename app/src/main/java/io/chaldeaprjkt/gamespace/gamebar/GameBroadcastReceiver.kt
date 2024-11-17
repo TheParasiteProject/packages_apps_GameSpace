@@ -24,25 +24,30 @@ import android.os.Handler
 import android.os.Looper
 import android.os.UserHandle
 
-
 class GameBroadcastReceiver : BroadcastReceiver() {
+
     private val handler by lazy { Handler(Looper.getMainLooper()) }
+
     override fun onReceive(context: Context, intent: Intent) {
         when (intent.action) {
             GAME_START -> context.onGameStart(intent)
-            GAME_STOP -> context.onGameStop(intent)
+            GAME_STOP -> context.onGameStop()
         }
     }
 
     private fun Context.onGameStart(intent: Intent) {
-        handler.post { resendBroadcast(intent) }
-        val app = intent.getStringExtra(SessionService.EXTRA_PACKAGE_NAME)!!
-        SessionService.start(this, app)
+        val app = intent.getStringExtra(SessionService.EXTRA_PACKAGE_NAME) ?: return
+        handler.post {
+            resendBroadcast(intent)
+            SessionService.start(this, app)
+        }
     }
 
-    private fun Context.onGameStop(intent: Intent) {
-        handler.post { resendBroadcast(intent) }
-        SessionService.stop(this)
+    private fun Context.onGameStop() {
+        handler.post {
+            resendBroadcast(Intent(GAME_STOP))
+            SessionService.stop(this)
+        }
     }
 
     private fun Context.resendBroadcast(prevIntent: Intent) {
@@ -57,8 +62,7 @@ class GameBroadcastReceiver : BroadcastReceiver() {
             .forEach {
                 (intent.clone() as Intent).apply {
                     setPackage(it)
-                    sendBroadcastAsUser(this, UserHandle.CURRENT,
-                        android.Manifest.permission.MANAGE_GAME_MODE)
+                    sendBroadcastAsUser(this, UserHandle.CURRENT, android.Manifest.permission.MANAGE_GAME_MODE)
                 }
             }
     }
